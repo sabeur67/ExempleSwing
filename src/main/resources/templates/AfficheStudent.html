@@ -14,15 +14,37 @@ crossorigin="anonymous"/>
 
 
 
+	<div class="container">
+
+		<h1>Detail du produit</h1>
+
+
+		<div class="row">
+
+			
+			<p th:text="${etu.sexe}"></p>
+
+			<p th:text="${etu.age}"></p>
+
+		</div>
+
+
+	</div>
+
+
+
+<!-- 
 <div class="row">
   <div class="col-4">
     <div class="list-group" id="list-tab" role="tablist">
 <div class="list-group-item list-group-item-action" th:each="etudiant : ${etu}" >			
 	<p th:text="${etudiant.firstName}"></p>
 </div>
+	</div>
+	</div>
 </div>
-</div>
-</div>
+
+ -->
 
 
 
